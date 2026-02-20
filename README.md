@@ -1,4 +1,4 @@
-# Hi, I’m Chi Xiao 👋
+# Hi, I’m Chi 👋
 
 **System Developer (Telecom) + Industrial PhD (SE/AI)** based in Sweden.  
 I build and improve production systems, and I research **how to evaluate and verify LLM-generated artifacts** (text/code/structured specs) with **reproducible pipelines**.
