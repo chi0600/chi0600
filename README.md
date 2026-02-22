@@ -1,38 +1,38 @@
 # Hi, I’m Chi 👋
 
-**System Developer (Telecom) + Industrial PhD (SE/AI)** based in Sweden.  
-I build and improve production systems, and I research **how to evaluate and verify LLM-generated artifacts** (text/code/structured specs) with **reproducible pipelines**.
+**System Developer (Telecom) + Industrial PhD (Software Engineering / AI)** in Sweden.  
+I build production systems and research **how to evaluate and verify LLM-generated artifacts** (text, code, structured specs) with **reproducible pipelines**.
 
-- 💼 Work: system development, performance/capacity, reliability, tooling & automation
-- 🎓 Research: LLM output evaluation, validity gates, metrics, structured artifacts (e.g., requirements/UML)
-- 🤝 Open to: applied SE+AI collaboration, benchmarking/evaluation discussions, research–industry projects
+- 💼 Work: performance & capacity, reliability/observability, tooling & automation
+- 🎓 Research: LLM output evaluation, validity gates, metrics, structured artifacts (requirements, UML)
+- 🤝 Open to: applied SE+AI collaboration, benchmarking & evaluation discussions, industry–academia projects
 
-**Links:**  
-- GitHub: https://github.com/chi0600  
-- Email: chi.xiao [at] ericsson.com  
-- (Optional) Scholar: <link> · ORCID: <link> · Slides: <link>
+**Contact**
+- Email: xiao0600 [at] gmail.com
+- ORCID: https://orcid.org/0009-0005-1562-0637
 
 ---
 
-## ⭐ Featured (Pin these on the profile)
+## ⭐ Featured
 
-### 1) `uml-llm-eval-2025` — Reproducible LLM Artifact Evaluation
+### uml-llm-eval-2025 — Reproducible LLM Artifact Evaluation
 A reproducible evaluation pipeline for LLM-generated UML/structured artifacts across models and domains.  
-**What you’ll find:** dataset curation · prompting (zero/one/few-shot) · metrics & error analysis · scripts/Docker
+Repo: https://github.com/chi0600/uml-llm-eval-2025
 
-### 2) `<repo>` — Engineering / Tooling (System Dev)
-A practical tool or automation that shows your engineering strength (CI, scripts, observability, tooling, etc.).  
-**Why it matters:** clear input/output · easy to run · real impact
+### fraud-anomaly-ds — Fraud / Anomaly Detection (Credit Card Transactions)
+End-to-end fraud detection under severe class imbalance, focusing on PR-AUC and precision–recall trade-offs.  
+Repo: https://github.com/chi0600/fraud-anomaly-ds
 
-### 3) `<repo>` — RAG / Embeddings / Experiment Runner (Optional)
-A lightweight project that demonstrates production-minded ML tooling: configs, reproducibility, evaluation.
+### uml-sequence-diagram-dataset — UML Sequence Diagram Dataset (ICSE-SEIP 2025)
+Original public dataset/artifacts for "UML Sequence Diagram Generation: A Multi-Model, Multi-Domain Evaluation".  
+Repo: https://github.com/chi0600/uml-sequence-diagram-dataset · DOI: https://doi.org/10.1109/ICSE-SEIP66354.2025.00030
 
 ---
 
-## 🧩 What I Do (Work + Research)
+## 🧩 What I Do
 
 ### System Development
-- Design and implement maintainable components and workflows
+- Build maintainable components and workflows
 - Performance/capacity analysis and engineering trade-offs
 - Reliability, observability, and automation (CI/scripts)
 
@@ -41,26 +41,9 @@ A lightweight project that demonstrates production-minded ML tooling: configs, r
 - Cross-domain evaluation pipelines for LLM outputs
 - Reproducible experiments and reporting
 
----
-
-## 📄 Publications / Research Outputs
-- **UML Sequence Diagram Generation: A Multi-Model, Multi-Domain Evaluation** — ICSE-SEIP 2025  
-  Artifact/Code: <link> · Preprint: <link> · Slides: <link>
-
-- (Optional) Pipeline generalization / workshop follow-up  
-  Status: <draft/submitted> · Materials: <link>
-
-> Keep this section “verifiable”: every item ideally has a link (artifact/preprint/slides).
 
 ---
 
-## 🛠 Tech Stack
-**Python** · **Git** · **Docker** · **CI (GitHub Actions)** · **Linux** · **LaTeX**  
-LLM tooling: RAG · embeddings · evaluation (metrics, datasets, experiment runners)
-
----
-
-## 📌 Highlights (Quick Scan)
-- Reproducible evaluation pipelines (scripts/configs/Docker)
-- Engineering mindset: clarity, maintainability, measurable impact
-- Bridging industry needs and research methods
+## 🛠 Tech
+Python · Git · Docker · Linux · GitHub Actions · LaTeX  
+LLM tooling: RAG, embeddings, evaluation harnesses
