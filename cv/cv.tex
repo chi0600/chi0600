@@ -1,45 +1,90 @@
-% cv/cv.tex
+% cv/cv.tex (ATS-friendly, 1-page priority)
 \documentclass[11pt,a4paper]{article}
 
-\usepackage[margin=1.6cm]{geometry}
+\usepackage[margin=1.55cm]{geometry}
 \usepackage[hidelinks]{hyperref}
 \usepackage{enumitem}
 \usepackage{parskip}
-\setlist[itemize]{noitemsep, topsep=0pt, leftmargin=*}
+\usepackage{titlesec}
+
+\setlist[itemize]{noitemsep, topsep=2pt, leftmargin=*}
+\titleformat{\section}{\large\bfseries}{}{0pt}{}[\titlerule]
+\titlespacing*{\section}{0pt}{8pt}{4pt}
 
 \begin{document}
 
-{\LARGE \textbf{Chi Xiaohh}} \hfill Last updated: \today\\
-Linköping, Sweden \quad | \quad Email: xiao0600@gmail.com \quad | \quad
-GitHub: \href{https://github.com/chi0600}{chi0600} \quad | \quad
-ORCID: \href{https://orcid.org/0009-0005-1562-0637}{0009-0005-1562-0637}
+% ===== Header =====
+\begin{minipage}[t]{0.72\textwidth}
+{\LARGE \textbf{Chi Xiao}}\\
+Linköping, Sweden \quad \href{mailto:xiao0600@gmail.com}{xiao0600@gmail.com}\\
+\href{https://github.com/chi0600}{github.com/chi0600} \quad
+\href{https://orcid.org/0009-0005-1562-0637}{ORCID: 0009-0005-1562-0637}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.25\textwidth}
+\raggedleft
+Last updated:\\
+\today
+\end{minipage}
 
-\vspace{0.3cm}
-\textbf{Summary}\\
-System Developer (Telecom) and Industrial PhD (Software Engineering / AI). Focus on performance, reliability/observability, and reproducible evaluation of LLM-generated artifacts.
-
-\vspace{0.2cm}
-\textbf{Experience}\\
-\textbf{System Developer} — Ericsson \hfill Sep 2021 -- Present\\
+% ===== Summary =====
+\section*{Summary}
 \begin{itemize}
-  \item Performance/capacity analysis, reliability improvements, tooling and automation.
-  \item (Add 1--2 concrete achievements here.)
+  \item System Developer (Telecom) and Industrial PhD researcher (Software Engineering / AI).
+  \item Study driver for capacity and scalability assessments in telecom systems under high load.
+  \item Research: reproducible evaluation and verification of LLM-generated artifacts (text, code, structured specifications).
 \end{itemize}
 
-\vspace{0.2cm}
-\textbf{Education}\\
-Industrial PhD (Software Engineering / AI) — (University/Company) \hfill 2024 -- Present\\
-(Add your degree history here.)
-
-\vspace{0.2cm}
-\textbf{Publications}\\
+% ===== Experience =====
+\section*{Experience}
+\textbf{Ericsson AB} — System Developer \hfill Sep 2021 -- Present \\
+Linköping, Sweden
 \begin{itemize}
-  \item \textit{UML Sequence Diagram Generation: A Multi-Model, Multi-Domain Evaluation} (ICSE-SEIP 2025).\\
-  DOI: \href{https://doi.org/10.1109/ICSE-SEIP66354.2025.00030}{10.1109/ICSE-SEIP66354.2025.00030}
+  \item Study driver for capacity and scalability evaluations in telecom systems under high load.
+  \item Own and maintain requirements and technical specifications; lead reviews and ensure consistency and traceability.
+  \item Plan and analyze trials to validate large-scale user targets and performance trade-offs; align findings with stakeholders.
 \end{itemize}
 
-\vspace{0.2cm}
-\textbf{Skills}\\
-Python, Git, Docker, Linux, GitHub Actions, LaTeX; LLM tooling: RAG, embeddings, evaluation harnesses.
+\textbf{Linköping University} — Research Engineer \hfill May 2019 -- Apr 2021 \\
+Sweden
+\begin{itemize}
+  \item Worked on lab-on-chip devices for smartphone-based imaging surface plasmon resonance (iSPR) detection.
+\end{itemize}
+
+\textbf{Chengdu Yingnuo Industry Co., Ltd.} — Optical Engineer \hfill Apr 2017 -- Apr 2019 \\
+China
+\begin{itemize}
+  \item Optical inspection for defect detection; imaging and data analysis.
+  \item Built data processing and analysis scripts in MATLAB and C++.
+\end{itemize}
+
+% ===== Education =====
+\section*{Education}
+\textbf{Eindhoven University of Technology} — Industrial PhD \hfill Sep 2024 -- Present \\
+Topic: Generative AI for software engineering (industrial PhD)
+
+\textbf{Imperial College London} — M.Sc. Optics and Photonics \hfill 2015 -- 2016
+
+\textbf{Jinan University} — B.Eng. Information Engineering \hfill 2011 -- 2015
+
+
+% ===== Publications (Selected) =====
+\section*{Publications (Selected)}
+\begin{itemize}
+  \item Chi Xiao et al. \textit{UML Sequence Diagram Generation: A Multi-Model, Multi-Domain Evaluation.} ICSE-SEIP 2025.
+  \item Chi Xiao et al. \textit{A portable smartphone-based imaging surface plasmon resonance biosensor for allergen detection in plant-based milks.} Talanta, 2023.
+  \item Chi Xiao et al. \textit{Print-and-stick unibody microfluidics coupled SPR chip for smartphone imaging SPR.} Analytica Chimica Acta, 2022.
+\end{itemize}
+
+% ===== Skills =====
+\section*{Skills}
+\textbf{Programming:} Python, C++, MATLAB \\
+\textbf{Tools:} Git, Linux, Docker, SQL, GitHub Actions, LaTeX \\
+\textbf{Engineering focus:} capacity/scalability analysis, test design, requirements/specifications, automation, stakeholder alignment
+
+% ===== Awards =====
+\section*{Awards}
+Jinan University Scholarships (First Prize: 2012, 2014; Second Prize: 2013) \\
+Honorable Mention, MCM/ICM
 
 \end{document}
