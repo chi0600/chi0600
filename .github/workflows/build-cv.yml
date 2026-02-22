@@ -27,10 +27,7 @@ jobs:
         run: |
           cd cv
           latexmk -pdf -interaction=nonstopmode -halt-on-error cv.tex
-            
-      - name: Copy PDF with a friendly name
-        run: |
-          cp cv/cv.pdf cv/Chi_Xiao_CV.pdf
+          mv cv.pdf Chi_Xiao_CV.pdf
 
       - name: Commit PDF back to repo
         run: |
