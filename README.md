@@ -10,6 +10,7 @@ I build production systems and research **how to evaluate and verify LLM-generat
 **Contact**
 - Email: xiao0600 [at] gmail.com
 - ORCID: https://orcid.org/0009-0005-1562-0637
+- CV (PDF): [Download](cv/cv.pdf)
 
 ---
 
@@ -17,15 +18,15 @@ I build production systems and research **how to evaluate and verify LLM-generat
 
 ### uml-llm-eval-2025 — Reproducible LLM Artifact Evaluation
 A reproducible evaluation pipeline for LLM-generated UML/structured artifacts across models and domains.  
-Repo: https://github.com/chi0600/uml-llm-eval-2025
+Repo: [chi0600/uml-llm-eval-2025](https://github.com/chi0600/uml-llm-eval-2025)
 
 ### fraud-anomaly-ds — Fraud / Anomaly Detection (Credit Card Transactions)
 End-to-end fraud detection under severe class imbalance, focusing on PR-AUC and precision–recall trade-offs.  
-Repo: https://github.com/chi0600/fraud-anomaly-ds
+Repo: [chi0600/fraud-anomaly-ds](https://github.com/chi0600/fraud-anomaly-ds)
 
 ### uml-sequence-diagram-dataset — UML Sequence Diagram Dataset (ICSE-SEIP 2025)
 Original public dataset/artifacts for "UML Sequence Diagram Generation: A Multi-Model, Multi-Domain Evaluation".  
-Repo: https://github.com/chi0600/uml-sequence-diagram-dataset · DOI: https://doi.org/10.1109/ICSE-SEIP66354.2025.00030
+Repo: [chi0600/uml-sequence-diagram-dataset](https://github.com/chi0600/uml-sequence-diagram-dataset) · DOI: https://doi.org/10.1109/ICSE-SEIP66354.2025.00030
 
 ---
 
