@@ -10,7 +10,7 @@ I build production systems and research **how to evaluate and verify LLM-generat
 **Contact**
 - Email: xiao0600 [at] gmail.com
 - ORCID: https://orcid.org/0009-0005-1562-0637
-- CV (PDF): [Download](cv/cv.pdf)
+- CV (PDF): [Download](cv/Chi_Xiao_CV.pdf)
 
 ---
 
